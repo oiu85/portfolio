@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="0.3" cy="0.2" r="1">
+      <stop offset="0" stop-color="#5c2a04"/>
+      <stop offset="0.6" stop-color="#080a13"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+
+  <!-- product cards fanned out -->
+  <g transform="translate(800 440)">
+    <g transform="rotate(-12) translate(-420 -220)">
+      <rect width="280" height="380" rx="30" fill="#0e1120" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2"/>
+      <rect x="24" y="24" width="232" height="220" rx="20" fill="#ffa14a" fill-opacity="0.12"/>
+    </g>
+    <g transform="rotate(10) translate(140 -220)">
+      <rect width="280" height="380" rx="30" fill="#0e1120" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2"/>
+      <rect x="24" y="24" width="232" height="220" rx="20" fill="#ff6b9d" fill-opacity="0.12"/>
+    </g>
+    <g transform="translate(-160 -260)">
+      <rect width="320" height="440" rx="34" fill="#0e1120" stroke="#ffa14a" stroke-opacity="0.5" stroke-width="3"/>
+      <rect x="26" y="26" width="268" height="250" rx="22" fill="#ffa14a" fill-opacity="0.22"/>
+      <path d="M110 200c0-40 25-70 50-70s50 30 50 70" fill="none" stroke="#ffa14a" stroke-width="6" stroke-linecap="round"/>
+      <rect x="90" y="190" width="140" height="70" rx="14" fill="#ffa14a" fill-opacity="0.8"/>
+      <rect x="26" y="304" width="200" height="16" rx="8" fill="#eaedfb" fill-opacity="0.85"/>
+      <rect x="26" y="336" width="120" height="14" rx="7" fill="#8b93b4"/>
+      <rect x="26" y="376" width="268" height="40" rx="20" fill="#ffa14a"/>
+    </g>
+  </g>
+
+  <text x="80" y="920" font-family="Space Grotesk, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#eaedfb">Storefront Starter</text>
+</svg>

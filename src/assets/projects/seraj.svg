@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="0.7" cy="0.25" r="1">
+      <stop offset="0" stop-color="#0f5132"/>
+      <stop offset="0.6" stop-color="#080a13"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </radialGradient>
+    <pattern id="star" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M60 20 72 48 100 60 72 72 60 100 48 72 20 60 48 48z" fill="none" stroke="#34d399" stroke-opacity="0.08" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#star)"/>
+
+  <!-- phones -->
+  <g transform="translate(560 120)">
+    <rect width="300" height="620" rx="44" fill="#0e1120" stroke="#34d399" stroke-opacity="0.4" stroke-width="3"/>
+    <rect x="30" y="60" width="240" height="160" rx="22" fill="#34d399" fill-opacity="0.18"/>
+    <circle cx="150" cy="140" r="36" fill="none" stroke="#34d399" stroke-width="4"/>
+    <path d="M140 124v32l26-16z" fill="#34d399"/>
+    <rect x="30" y="250" width="200" height="18" rx="9" fill="#eaedfb" fill-opacity="0.8"/>
+    <rect x="30" y="284" width="150" height="14" rx="7" fill="#8b93b4"/>
+    <rect x="30" y="340" width="240" height="6" rx="3" fill="#ffffff" fill-opacity="0.1"/>
+    <rect x="30" y="340" width="140" height="6" rx="3" fill="#34d399"/>
+    <rect x="30" y="390" width="240" height="70" rx="18" fill="#141830"/>
+    <rect x="30" y="476" width="240" height="70" rx="18" fill="#141830"/>
+  </g>
+  <g transform="translate(900 200)">
+    <rect width="260" height="540" rx="40" fill="#0e1120" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+    <rect x="28" y="56" width="204" height="260" rx="18" fill="#141830"/>
+    <g fill="#8b93b4">
+      <rect x="48" y="84" width="164" height="10" rx="5"/>
+      <rect x="48" y="110" width="140" height="10" rx="5"/>
+      <rect x="48" y="136" width="156" height="10" rx="5"/>
+      <rect x="48" y="162" width="120" height="10" rx="5"/>
+      <rect x="48" y="188" width="150" height="10" rx="5"/>
+    </g>
+    <rect x="28" y="340" width="204" height="60" rx="30" fill="#34d399" fill-opacity="0.2"/>
+  </g>
+
+  <text x="80" y="920" font-family="Space Grotesk, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#eaedfb">Seraj Aldeen</text>
+</svg>

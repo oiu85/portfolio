@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.3" r="1">
+      <stop offset="0" stop-color="#3a1d78"/>
+      <stop offset="0.6" stop-color="#080a13"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#b98bff"/>
+      <stop offset="1" stop-color="#6c5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+
+  <!-- neural lines -->
+  <g stroke="#b98bff" stroke-opacity="0.18" stroke-width="2">
+    <path d="M200 200 520 360 300 620M520 360 780 250M1400 180 1120 380 1320 640M1120 380 880 470"/>
+  </g>
+  <g fill="#b98bff" fill-opacity="0.5">
+    <circle cx="200" cy="200" r="8"/><circle cx="520" cy="360" r="10"/><circle cx="300" cy="620" r="8"/>
+    <circle cx="1400" cy="180" r="8"/><circle cx="1120" cy="380" r="10"/><circle cx="1320" cy="640" r="8"/>
+  </g>
+
+  <circle cx="800" cy="300" r="150" fill="url(#orb)"/>
+
+  <!-- chat bubbles -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">
+    <rect x="460" y="500" width="460" height="80" rx="40" fill="#141830" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="500" y="550" fill="#8b93b4">Summarise my Q3 docs&</text>
+    <rect x="680" y="610" width="460" height="130" rx="40" fill="#b98bff" fill-opacity="0.16" stroke="#b98bff" stroke-opacity="0.45"/>
+    <text x="720" y="664" fill="#eaedfb">Revenue grew 18% [1],</text>
+    <text x="720" y="706" fill="#eaedfb">churn fell to 2.1% [2]</text>
+  </g>
+
+  <text x="80" y="920" font-family="Space Grotesk, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#eaedfb">Nova AI Assistant</text>
+</svg>
